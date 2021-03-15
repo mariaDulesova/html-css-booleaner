@@ -6,11 +6,19 @@ body{
     
 }
 
+main {
+   margin: auto 10% auto 10%;
+}
+
 /* Formattazione Header */
 #header-cover {
     height: 100px;
     background:rgba(29, 163, 247, 0.89) url("img/pattern.png");
     background-size: 400px 200px;
+}
+
+#header-logo{
+    margin: auto 10%;
 }
 
 
