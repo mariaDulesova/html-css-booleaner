@@ -30,3 +30,9 @@ h3, h6 {
 .photo-title{
     font-size: 70%;
 }
+/* /Formattazione Sezione Immagini Introduttive */
+
+/* Formattazione Sezione Testo Centrale */
+.highlighted-text{
+    background-color: rgb(255, 251, 0);
+}
