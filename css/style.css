@@ -7,7 +7,7 @@ body{
 }
 
 /* Formattazione Header */
-#header-cover{
+#header-cover {
     height: 100px;
     background:rgba(29, 163, 247, 0.89) url("img/pattern.png");
     background-size: 400px 200px;
@@ -21,8 +21,7 @@ h4, h6 {
 h4{
     height: 0;
 }
-
-.author{
+.author {
     color: rgb(71, 180, 248);
 }
 
@@ -35,15 +34,15 @@ h4{
 }
 
 /* Formattazione Sezione Testo Centrale */
-.highlighted-text{
+.highlighted-text {
     background-color: rgb(255, 251, 0);
 }
 
 /* Formattazione Tabella */
-#main-table{
+#main-table {
     width: 100%;
 }
-thead{
+thead {
     text-align: left;
     color:white;
     background-color: rgb(22, 126, 211);
@@ -63,6 +62,6 @@ thead{
     height: 208px;
     background-image: url("img/graph.jpg");
 }
-h3{
+h3 {
     color:white;
 }
