@@ -2,37 +2,61 @@
 
 body{
     font-size: 18px;
+    font-weight:300;
     font-family: 'Lato', sans-serif;
 }
 
-
 /* Formattazione Header */
-#header-cover{
-    background-color: rgb(71, 180, 248,0.7);
-    /*background-image: url(img/pattern.png);*/
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* /Formattazione Header */
 
+
+#header-cover{
+    background:rgb(71, 180, 248,0.7) url("img/pattern.png") repeat scroll;
+
+}
 
 /* Formattazione Sezione Titolo */
-h3, h6 {
+h4, h6 {
     color: rgb(134, 133, 133);
 }
 .author{
     color: rgb(71, 180, 248);
 }
-/* /Formattazione Sezione Titolo */
-
 
 /* Formattazione Sezione Immagini Introduttive */
 .photo-title{
     font-size: 70%;
 }
-/* /Formattazione Sezione Immagini Introduttive */
 
 /* Formattazione Sezione Testo Centrale */
 .highlighted-text{
     background-color: rgb(255, 251, 0);
+}
+
+/* Formattazione Tabella */
+#main-table{
+    width: 100%;
+}
+thead{
+    text-align: left;
+    color:white;
+    background-color: rgb(22, 126, 211);
+}
+.colored-row {
+    background-color: rgb(133, 176, 211)
+}
+
+/* Formattazione Sezione Altri Argomenti */
+
+#argument-monitor {
+    width: 312px;
+    height: 208px;
+    background-image: url("img/monitor.jpg");
+}
+#argument-graph {
+    width: 312px;
+    height: 208px;
+    background-image: url("img/graph.jpg");
+}
+h3{
+    color:white;
 }
